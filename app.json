@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Game Session Tracker",
+    "slug": "game-session-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png",
+      "name": "Game Session Tracker",
+      "description": "Track your poker and rummy game sessions",
+      "themeColor": "#FF5A5F",
+      "backgroundColor": "#f7f7f7"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    }
+  }
+}
